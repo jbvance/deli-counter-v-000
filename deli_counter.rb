@@ -1,8 +1,8 @@
 # Write your code here.
 
 def take_a_number(katz_deli, name)
-  place_in_line = katz_deli.any? ? katz_deli.size + 1 : 1
-  return "Welcome, #{name}. You are number #{place_in_line} in line."
+  katz_deli.push(name)
+  return "Welcome, #{name}. You are number #{katz_deli.size} in line."
 end
 
 def line(katz_deli)
