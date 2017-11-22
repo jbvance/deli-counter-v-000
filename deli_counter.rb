@@ -7,7 +7,7 @@ end
 
 def line(katz_deli)
   if !katz_deli.any?
-    puts "The line is currently empty."
+    return puts "The line is currently empty."
   end
 
   tmp = "The line is currently: "
