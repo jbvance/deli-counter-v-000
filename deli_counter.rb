@@ -14,6 +14,5 @@ def line(katz_deli)
   katz_deli.each_with_index do |name, index|
     tmp += "#{index + 1}. #{name} "
   end
-  tmp.strip!    
+  tmp.strip!
 end
-
