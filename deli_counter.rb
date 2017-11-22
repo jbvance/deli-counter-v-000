@@ -2,7 +2,8 @@
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-  return "Welcome, #{name}. You are number #{katz_deli.size} in line."
+  return puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
+
 end
 
 def line(katz_deli)
