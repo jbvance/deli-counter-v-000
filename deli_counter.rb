@@ -2,7 +2,7 @@
 
 def take_a_number(katz_deli, name)
   place_in_line = katz_deli.any? ? katz_deli.size + 1 : 1
-  puts "Welcome, #{name}. You are number #{place_in_line} in line."
+  return "Welcome, #{name}. You are number #{place_in_line} in line."
 end
 
 def line(katz_deli)
